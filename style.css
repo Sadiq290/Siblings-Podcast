@@ -90,7 +90,7 @@ a.active, a:hover {
     color: indianred;
 }
 .contact{
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +101,8 @@ a.active, a:hover {
     width: 780px;
     background: #fff;
     border-radius: 5px;
+    margin: 30px 50px;
+
 }
 .wrapper header{
     font-size: 22px;
@@ -194,8 +196,6 @@ form .message textarea{
     pointer-events: none;
     transform: translateY(-50%);
 }
-
-
 @media (max-width:952px) {
     #logo {
         font-size: 30px;
@@ -240,6 +240,40 @@ form .message textarea{
         top: 0%;
     }
 }
+@media (max-width:700px){
+    .wrapper header{
+        text-align: center;
+    }
+    form .dbl-field{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .dbl-field .field{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .namePhone{
+        margin-right: 0;
+    }
+    form .message textarea{
+        resize: none;
+        width: 80%;
+    }
+    .button-area button{
+       width: 100%;
+    }
+    form .button-area{
+        flex-direction: column;
+        width: 80%;
+    }
+    .button-area span{
+        text-align: center;
+        margin: 20px 0px;
+    }
+    form .field input{
+        width: 320px;
+    }
+}
 
 @media (max-width: 700px) {
     #title {
@@ -252,7 +286,7 @@ form .message textarea{
         margin-top: 25%;
     }
     .navsection{
-        height: 500px;
+        height: 550px;
     }
 }
 
@@ -265,5 +299,15 @@ form .message textarea{
     }
     .navsection{
         height: 450px;
+    }
+    form .message textarea{
+        resize: none;
+        width: 70%;
+    }
+    .button-area button{
+        width: 100%;
+     }
+     form .field input{
+        width: 210px;
     }
 }
