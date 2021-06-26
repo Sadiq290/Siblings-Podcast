@@ -90,7 +90,7 @@ a.active, a:hover {
     color: indianred;
 }
 .contact{
-    height: 400px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@ a.active, a:hover {
     background: coral;
 }
 .wrapper{
-    width: 750px;
+    width: 780px;
     background: #fff;
     border-radius: 5px;
 }
@@ -115,7 +115,6 @@ form .dbl-field{
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-    /* margin-right: 15px; */
     justify-content: space-between;
 }
 .dbl-field .field{
@@ -136,10 +135,12 @@ form .message textarea{
     border-radius: 5px;
 }
 form .field input{
-    width: 310px;
+    width: 290px;
 }
 form .message textarea{
-    width: 100%;
+    width: 95%;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 0px 20px 30px;
 }
 .wrapper .field i{
     position: absolute;
@@ -149,6 +150,15 @@ form .message textarea{
     pointer-events: none;
     transform: translateY(-50%);
 }
+
+
+
+
+
+
+
+
+
 
 
 
