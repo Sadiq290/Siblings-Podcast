@@ -300,6 +300,8 @@ form .message textarea{
     .navsection{
         height: 450px;
     }
+}
+@media (max-width:450px){
     form .message textarea{
         resize: none;
         width: 70%;
