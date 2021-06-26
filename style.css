@@ -89,6 +89,95 @@ a.active, a:hover {
     font-weight: 900;
     color: indianred;
 }
+.contact{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background: coral;
+}
+.wrapper{
+    width: 750px;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrapper header{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.wrapper form{
+  margin: 35px 30px;
+}
+form .dbl-field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    /* margin-right: 15px; */
+    justify-content: space-between;
+}
+.dbl-field .field{
+    height: 50px;
+    position: relative;
+    width: calc(100% / 2 - 13px);
+}
+.namePhone{
+    margin-right: 20px;
+}
+form .field input,
+form .message textarea{
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px 0 48px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+form .field input{
+    width: 310px;
+}
+form .message textarea{
+    width: 100%;
+}
+.wrapper .field i{
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    font-size: 16px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:952px) {
     #logo {
